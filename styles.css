@@ -41,6 +41,7 @@ ul {
 .content-1 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #1f2937;
     color: white;
 }
@@ -70,7 +71,11 @@ ul {
 }
 
 .header-img {
-    width:100px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 90%;
+    height: auto;
 }
 
 .footer {
